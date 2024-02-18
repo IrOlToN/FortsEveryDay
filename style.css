@@ -1,0 +1,104 @@
+body {
+    background-color: rgb(22, 21, 21);
+}
+.navbar {
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+}
+.navbar .cont {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-menu {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.navbar-menu li {
+    display: inline-block;
+}
+.navbar-menu li a {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+    text-decoration: none;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all .2s ease-in-out;
+}
+.navbar-warp {
+    display: flex;
+    flex-flow: row nowrap;
+}
+.navbar-brand {
+    font-weight: 700;
+    font-size: 26px;
+    color: rgb(220, 220, 255);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    transition: all .2s ease-in-out;
+}
+.navbar-menu li a:hover {
+    color: rgb(0, 204, 255);
+    opacity: 1;
+    padding: 22.25px;
+    font-size: 120%;
+}
+.navbar-brand:hover {
+    color: skyblue;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 250%;
+    color: white;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+    color: rgb(208, 241, 255);
+}
+p {
+    font-size: 130%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.imgs img {
+    width: 100px;
+}
+.upg {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 130%;
+    color: rgb(255, 219, 58);
+}
+.imgsf img {
+    width: 200px;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 7.5px;
+    margin-top: 7.5px;
+    position: relative;
+    padding-top: 5px;
+}
+.imgsf img:hover {
+    width: 210px;
+    margin-bottom: 2.5px;
+    margin-top: 2.5px;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+}
+.dis {
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(185, 185, 185);
+}
+.com {
+    color: aquamarine;
+}
+.big {
+    font-size: 300%;
+}
